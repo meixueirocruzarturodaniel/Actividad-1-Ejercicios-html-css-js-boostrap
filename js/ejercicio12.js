@@ -1,14 +1,18 @@
-function suma() {
-var num1 = document.getElementById("num1").value;
-var num2 = document.getElementById("num2").value;
-var resultado = parseInt(num1) + parseInt(num2);
-document.getElementById("resultado").innerHTML = resultado;
+document.getElementById('btnConvertir').addEventListener('click', function() {
+const campope = document.getElementById('pesos').value;
+const campodo = document.getElementById('dolar');
+if (campope === "" || isNaN(campope)) {
+alert("La cantidad en el campo de pesos no puede quedar vacio");
+campodo.value = "";
+return;
 }
+const pesos = parseFloat(campope);
+if (pesos < 0) {
+        alert("No puedes ingresar cantidades negativas papu");
+        campodo.value = "";
+        return;
+    }
+const dolar = pesos * 0.055;
+campodo.value = dolar.toFixed(2) + " dolares";
+});
 
-function multiplicar() {
-var num3 = document.getElementById("num3").value;
-var num4 = document.getElementById("num4").value;
-var resultado1 = parseInt(num3) * parseInt(num4);
-console.log('hola mundo');
-document.getElementById("resultado1").innerHTML = resultado1;
-}
