@@ -1,0 +1,3 @@
+#lista{list-style-type:none;padding:0;}
+.elemento{background-color:#f8f9fa;border-left:4px solid #0d6efd;transition:all 0.3s ease;}
+.elemento:hover{background-color:#e9ecef;}
