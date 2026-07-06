@@ -9,6 +9,14 @@ return;
 const kilometros = parseFloat(campokm);
 if (kilometros < 0) {
         alert("No puedes ingresar cantidades negativas papu");
+        ALERR
+        ALSEKEFL
+        LAK
+        SLKASKASKL
+        ASKL
+        ASLASL
+        AKSLA
+        SVGAElementSAKASLSAAASAS
         campokm.value = "";
         return;
     }
