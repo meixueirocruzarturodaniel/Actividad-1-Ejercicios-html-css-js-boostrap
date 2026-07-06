@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
 box-sizing:border-box;
 margin:0;
@@ -71,4 +72,79 @@ cursor:pointer;
 }
 .botones-contenedor .btn-division{
 background-color:#bf616a;
+=======
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+font-family:'Courier New',Courier,monospace;
+}
+body{
+background-color:#d8dee9;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+.casio-calculadora{
+background-color:#2e3440;
+width:320px;
+padding:20px;
+border:2px solid #1a1c23;
+}
+.marca{
+color:#eceff4;
+font-size:18px;
+font-weight:bold;
+font-family:Arial,sans-serif;
+margin-bottom:15px;
+}
+.pantalla-contenedor{
+background-color:#9ea786;
+padding:10px;
+margin-bottom:20px;
+border:2px solid #7a8264;
+}
+#resultado{
+width:100%;
+background:transparent;
+border:none;
+text-align:right;
+font-size:32px;
+color:#111;
+outline:none;
+}
+.entradas-contenedor{
+display:flex;
+justify-content:space-between;
+margin-bottom:20px;
+}
+.entradas-contenedor input{
+width:48%;
+padding:10px;
+font-size:16px;
+border:1px solid #ccc;
+background-color:#e5e9f0;
+text-align:right;
+outline:none;
+}
+.entradas-contenedor input:focus{
+border:2px solid #88c0d0;
+}
+.botones-contenedor{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:12px;
+}
+.botones-contenedor button{
+background-color:#4c566a;
+color:white;
+border:1px solid #1a1c23;
+padding:15px 0;
+font-size:24px;
+cursor:pointer;
+}
+.botones-contenedor .btn-division{
+background-color:#bf616a;
+>>>>>>> 2adf3ca3ccf5fd5c066617db3df2d0676f4a15c6
 }

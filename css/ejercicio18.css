@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 #lista{list-style-type:none;padding:0;}
 .elemento{background-color:#f8f9fa;border-left:4px solid #0d6efd;transition:all 0.3s ease;}
+=======
+#lista{list-style-type:none;padding:0;}
+.elemento{background-color:#f8f9fa;border-left:4px solid #0d6efd;transition:all 0.3s ease;}
+>>>>>>> 2adf3ca3ccf5fd5c066617db3df2d0676f4a15c6
 .elemento:hover{background-color:#e9ecef;}
